@@ -1,0 +1,96 @@
+.landingphoto{
+    padding-top: 50px;
+    width: 100%;
+    height: 95vh;
+    background-image: url(/assets/mrelectric.webp);
+    background-size: cover;
+    background-position: top;
+}
+.photocover{
+    font-size: 2rem;
+    color: white;
+    padding: 200px 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact{
+    background-color: #2B6CA3;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    color: white;
+}
+.unit{
+   position: relative;
+   margin-left: 50px;
+}
+.atv{
+    position: absolute;
+    left: 62px;
+    top: 16px;
+}
+.circle{
+    position: absolute;
+    font-size: 6rem;
+    top: 80px;
+    left: 40px;
+}
+.unittext{
+    margin-top: 200px;
+    width: 300px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+.phone{
+    padding: 10px;
+    transition: color 1000ms ease;
+}
+
+.call{
+    width: 120px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    color:#FFDE11 ;
+    background-color: #2B6CA3;
+    transition: color 1000ms ease;
+    
+}
+.svgs>i{
+    padding: 8px;
+    border-radius: 10px;
+    transition: color 1000ms ease;
+
+}
+.call:hover,.phone:hover,.svgs>i:hover{
+    background-color: #FFDE11;
+    color: #2B6CA3;
+    cursor: pointer;
+}
+@media(width<1200px){
+    .photocover{
+        padding: 100px 0 0 200px;
+    }
+}
+@media(width<800px){
+    .landingphoto{
+        height: 75vh;
+    }
+    .photocover{
+        padding: 100px 50px 50px 50px;
+        font-size: 1.5rem;
+    }
+    .contact{
+        flex-direction: column;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+}
