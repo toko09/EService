@@ -62,13 +62,18 @@
     transition: color 1000ms ease;
     
 }
-.svgs>i{
+h2{
+    font-size:36px;
+}
+.svgs>a{
+    text-decoration: none;
+    color: white;
+
     padding: 8px;
     border-radius: 10px;
     transition: color 1000ms ease;
-
 }
-.call:hover,.phone:hover,.svgs>i:hover{
+.call:hover,.phone:hover,.svgs>a:hover{
     background-color: #FFDE11;
     color: #2B6CA3;
     cursor: pointer;
