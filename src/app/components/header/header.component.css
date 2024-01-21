@@ -21,6 +21,10 @@ h1:hover,h3:hover{
     gap: 150px;
     white-space: nowrap;
 }
+.nav>h3>a{
+    text-decoration: none;
+    color: inherit;
+}
 .hamburger{
     display: none;
 }
