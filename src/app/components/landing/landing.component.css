@@ -61,7 +61,7 @@
     color:#FFDE11 ;
     background-color: #2B6CA3;
     transition: color 1000ms ease;
-    
+    text-wrap: nowrap;
 }
 h2{
     font-size:36px;
