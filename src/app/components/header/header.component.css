@@ -9,6 +9,11 @@
     position: fixed;
     width: 100%;
 }
+
+.callbtn:hover{
+    color: #FFDE11;
+}
+
 h1,h3{
     transition: color 500ms ease;
 }
@@ -20,10 +25,17 @@ h1:hover,h3:hover{
     display: flex;
     gap: 150px;
     white-space: nowrap;
+    align-items: center;
 }
 .nav>h3>a{
     text-decoration: none;
     color: inherit;
+}
+.callbtn{
+    background-color: #3482c2;
+    border-radius: 20px;
+    padding: 8px 24px;
+    
 }
 .hamburger{
     display: none;

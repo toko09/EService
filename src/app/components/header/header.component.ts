@@ -10,7 +10,9 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
  togglehamnav() { 
     const hamnav = document.querySelector('.nav') as HTMLElement;
-    hamnav.style.display = (hamnav.style.display === 'none' || hamnav.style.display === '') ? 'flex' : 'none';
-    
+    hamnav.style.display = (hamnav.style.display === 'none' || hamnav.style.display === '') ? 'flex' : 'none';   
+  }
+  call() { 
+    window.location.href = 'tel:+995577227589'
   }
 }
