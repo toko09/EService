@@ -14,6 +14,7 @@
     flex-direction: column;
     gap: 40px;
 }
+
 .contact{
     background-color: #2B6CA3;
     width: 100%;
@@ -86,6 +87,9 @@ h2{
 @media(width<800px){
     .landingphoto{
         height: 75vh;
+    }
+    .titleh1{
+        font-size: 2.5rem;
     }
     .photocover{
         padding: 100px 50px 50px 50px;
