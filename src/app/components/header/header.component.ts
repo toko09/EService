@@ -16,5 +16,12 @@ export class HeaderComponent {
   call() { 
     window.location.href = 'tel:+995577227589'
   }
+  checkwidth() { 
+    const windowWidth = window.innerWidth;
+    if (windowWidth < 401) { 
+      this.togglehamnav()
+    }
+
+  }
 
 }
