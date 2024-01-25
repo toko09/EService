@@ -1,17 +1,23 @@
 <div class="main">
-    <div class="hamh1">
-        <div class="hamburger" (click)="togglehamnav()">
-            <h1> <i class="fa-solid fa-bars"></i></h1>
-        </div>
-        <h1><i class="fa-solid fa-bolt"></i>Mr.Electric <i class="fa-solid fa-bolt"></i></h1>
+  <div class="hamh1">
+    <div class="hamburger" (click)="togglehamnav()">
+      <h1><i class="fa-solid fa-bars"></i></h1>
     </div>
-    <div class="nav">
-        <h3 class="callbtn">
-            <a href="" (click)="call()">
-                <i class="fa-solid fa-phone"></i> 577-22-75-89
-            </a>
-        </h3>
-        <h3><a href="">ჩვენს შესახებ</a></h3>
-        <h3><a href="">კონტაქტი</a></h3>
-    </div>
-</div> 
+    <h1>
+      <a href="#top">
+        <i class="fa-solid fa-bolt"></i>
+        Mr.Electric
+        <i class="fa-solid fa-bolt"></i>
+      </a>
+    </h1>
+  </div>
+  <div class="nav">
+    <h3 class="callbtn">
+      <a  (click)="call()">
+        <i class="fa-solid fa-phone"></i> 577-22-75-89
+      </a>
+    </h3>
+    <h3><a href="#contact" (click)="togglehamnav()">ჩვენს შესახებ</a></h3>
+    <h3><a href="#adress" (click)="togglehamnav()">კონტაქტი</a></h3>
+  </div>
+</div>

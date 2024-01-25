@@ -18,37 +18,81 @@
 .contact{
     background-color: #2B6CA3;
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     gap: 60px;
     justify-content: space-around;
+    align-items: center;
     color: white;
 }
-.unit{
-   position: relative;
-   margin-left: 50px;
-}
-.atv{
-    position: absolute;
-    left: 62px;
-    top: 16px;
-}
-.circle{
-    position: absolute;
-    font-size: 6rem;
-    top: 80px;
-    left: 40px;
-}
-.unittext{
-    margin-top: 200px;
-    width: 300px;
-}
-.adress{
+.card1,.card2,.card3{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex: 1;
+}
+.unit1,.unit2,.unit3{
+    position: relative;
+    display: flex;    
+}
+.circle1,.circle2,.circle3{
+    position: absolute;
+    top: 60px;
+    font-size: 7rem;
+}
+
+.circle1{left: -28px;}.circle2{left: -15px;}.circle3{left: -20px;}
+.text1,.text2,.text3{
+    text-align: center;
+}
+
+
+.paralax_div{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: -10;
+    overflow: hidden;
+}
+.paralax_photo{
+    width: 100%;
+    height: 100%;
+    filter:brightness(0.6)
+}
+.paralax_text{
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.adress{
+    background-color: #2B6CA3;
+    height: 60vh;
+}
+.flx{
+    display: flex;
+    justify-content: space-around;
     margin-top: 50px;
 }
+.adress>h2{
+    flex: 2;
+    color: #5AB7E8;
+    text-align: center;
+}
+.follow,.callus{
+    text-align: center;
+    color: white;
+}
+
 .phone{
     padding: 10px;
     transition: color 1000ms ease;
@@ -62,6 +106,10 @@
     background-color: #2B6CA3;
     transition: color 1000ms ease;
     text-wrap: nowrap;
+}
+.bottomh3{
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 h2{
     font-size:36px;
@@ -95,10 +143,33 @@ h2{
         padding: 100px 50px 50px 50px;
         font-size: 1.5rem;
     }
+    .unit1,.unit2,.unit3{
+    }
     .contact{
         flex-direction: column;
-        height: 80vh;
-        justify-content: center;
+        height: 120vh;
+        gap: 0px;
+
+        justify-content:flex-start ;
+        align-items:flex-start;
+        padding-left: 50px;
+        gap: 40px;
+    }
+    .card1,.card2,.card3{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
+        /* gap: 20px; */
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .flx{
+        flex-direction: column;
+        gap: 40px;
     }
 }

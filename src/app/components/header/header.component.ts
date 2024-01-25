@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { LandingComponent } from '../landing/landing.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [ LandingComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -15,4 +16,5 @@ export class HeaderComponent {
   call() { 
     window.location.href = 'tel:+995577227589'
   }
+
 }
