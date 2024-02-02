@@ -10,11 +10,9 @@
     width: 100%;
     z-index: 100;
 }
-
 .callbtn:hover{
     color: #FFDE11;
 }
-
 h1,h3{
     transition: color 500ms ease;
     text-wrap: nowrap;
@@ -37,26 +35,23 @@ a{
     background-color: #3482c2;
     border-radius: 20px;
     padding: 8px 24px;
-    
 }
-.hamburger{
-    display: none;
-}
+.hamburger{    display: none;   }
 .hamh1{
     display: flex;
     width: 100%;
     gap: 40px;
     justify-content: flex-start;
 }
+
 @media(width<1200px){
     .nav{
         gap: 50px;
     }
 }
+
 @media(width<800px){
-    *{
-        padding: 0;
-    }
+    *{  padding: 0; }
      .nav{
         display: none;
         padding: 40px 0;
@@ -71,16 +66,11 @@ a{
         padding-bottom: 10px;
         border-bottom: 2px solid black;
     }
-
-    .hamburger{
-        display: inline-flex;
-    }
+    .hamburger{ display: inline-flex;   }
     .main{
         justify-content: space-between;
         gap: 10px;
         padding: 20px;
         flex-direction: column;
-        /* width: 420px; */
-
     }
 }

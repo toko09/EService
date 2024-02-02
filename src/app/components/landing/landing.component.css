@@ -37,10 +37,7 @@
 .facebook >a{
     text-decoration: none;
     color:inherit ;
-    /* color: inherit; */
 }
-
-
 .contact{
     background-color: #2B6CA3;
     width: 100%;
@@ -73,8 +70,6 @@
 .text1,.text2,.text3{
     text-align: center;
 }
-
-
 .paralax_div{
     height: 100vh;
     width: 100%;
@@ -98,8 +93,6 @@
     text-align: center;
     padding: 40px;
 }
-
-
 .adress{
     background-color: #2B6CA3;
     height: 60vh;
@@ -118,7 +111,6 @@
     text-align: center;
     color: white;
 }
-
 .phone{
     padding: 10px;
     transition: color 1000ms ease;
@@ -154,11 +146,13 @@ h2{
     color: #2B6CA3;
     cursor: pointer;
 }
+
 @media(width<1200px){
     .photocover{
         padding: 100px 0 0 200px;
     }
 }
+
 @media(width<800px){
     .landingphoto{
         height: 75vh;
@@ -176,7 +170,6 @@ h2{
         flex-direction: column;
         height: 120vh;
         gap: 0px;
-
         justify-content:flex-start ;
         align-items:flex-start;
         padding-left: 50px;
@@ -187,15 +180,10 @@ h2{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        /* gap: 20px; */
     }
-    h2{
-        font-size: 20px;
-    }
-    p{
-        font-size: 12px;
-    }
-    .flx{
+    h2{ font-size: 20px;    }
+    p{  font-size: 12px;    }
+    .flx{   
         flex-direction: column;
         gap: 40px;
     }
@@ -204,15 +192,10 @@ h2{
         flex-direction: column;
         gap: 60px;
     }
-    .facebook{
-        width: 200px;
-    }
+    .facebook{  width: 200px;   }
     .call{
         font-size: 20px;
         width: 200px;
     }
-    .phone{
-        display: inline;
-    }
- 
+    .phone{ display: inline;    }
 }
