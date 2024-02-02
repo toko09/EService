@@ -14,6 +14,32 @@
     flex-direction: column;
     gap: 40px;
 }
+.number{
+    display: flex;
+    gap: 80px;
+    
+}
+.facebook{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2B6CA3;
+    color:#FFDE11 ;
+    transition: color 1000ms ease;
+    text-wrap: nowrap;
+    font-size: 24px;
+    letter-spacing: 5px;
+  
+}
+.facebook >a>i {
+    margin-right: -12px;
+}
+.facebook >a{
+    text-decoration: none;
+    color:inherit ;
+    /* color: inherit; */
+}
+
 
 .contact{
     background-color: #2B6CA3;
@@ -98,7 +124,7 @@
     transition: color 1000ms ease;
 }
 .call{
-    width: 120px;
+    width: 200px;
     padding: 12px;
     border-radius: 20px;
     border: none;
@@ -106,6 +132,7 @@
     background-color: #2B6CA3;
     transition: color 1000ms ease;
     text-wrap: nowrap;
+    font-size: 24px;
 }
 .bottomh3{
     font-size: 24px;
@@ -122,7 +149,7 @@ h2{
     border-radius: 10px;
     transition: color 1000ms ease;
 }
-.call:hover,.phone:hover,.svgs>a:hover{
+.call:hover,.phone:hover,.svgs>a:hover,.facebook:hover{
     background-color: #FFDE11;
     color: #2B6CA3;
     cursor: pointer;
@@ -171,5 +198,17 @@ h2{
     .flx{
         flex-direction: column;
         gap: 40px;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .facebook{
+        width: 200px;
+    }
+    .call{
+        font-size: 20px;
+        width: 200px;
     }
 }
