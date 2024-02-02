@@ -14,7 +14,7 @@ export class HeaderComponent {
     hamnav.style.display = (hamnav.style.display === 'none' || hamnav.style.display === '') ? 'flex' : 'none';   
   }
   call() { 
-    window.location.href = 'tel:+995558444812'
+    window.location.href = 'tel:+995558444812';
   }
   checkwidth() { 
     const windowWidth = window.innerWidth;

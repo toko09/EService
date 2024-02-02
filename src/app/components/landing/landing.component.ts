@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class LandingComponent {
   call() { 
-    window.location.href = 'tel:+995577227589'
+    window.location.href = 'tel:+995558444812';
+
   }
 }
